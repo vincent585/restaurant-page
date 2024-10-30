@@ -1,0 +1,23 @@
+body {
+    background-color: #BFA2DB;
+    color: #F5E9E2;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav > button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8F9779;
+    color: #F5E9E2;
+
+    &:hover {
+        background-color: #A3B3A3;
+    }
+}
