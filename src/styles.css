@@ -48,3 +48,8 @@ a {
         color: #4A4A4A;
     }
 }
+
+img {
+    width: 400px;
+    height: 600px;
+}
