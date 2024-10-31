@@ -18,7 +18,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 30px;
-    background-color: #BFA2DB;
+    background-color: #BFA2DB9f;
 }
 
 nav > button {
@@ -40,7 +40,8 @@ footer {
     text-align: center;
     margin-top: auto;
     align-content: center;
-    background-color: #BFA2DB;
+    background-color: #BFA2DB9f;
+    font-size: 14px;
 }
 
 a {
@@ -73,6 +74,7 @@ img {
     align-items: center;
     gap: 20px;
     border-radius: 15px;
+    font-size: 18px;
 }
 
 .info-container {
@@ -84,4 +86,5 @@ img {
 .hours, .location {
     justify-items: center;
     line-height: 1.5;
+    font-size: 18px;
 }
