@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #BFA2DB;
+    background: no-repeat center/cover url("./lavender.jpg");
     color: #F5E9E2;
     display: flex;
     flex-direction: column;
@@ -13,10 +13,12 @@ body {
 }
 
 nav {
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: center;
     gap: 30px;
+    background-color: #BFA2DB;
 }
 
 nav > button {
@@ -38,6 +40,7 @@ footer {
     text-align: center;
     margin-top: auto;
     align-content: center;
+    background-color: #BFA2DB;
 }
 
 a {
@@ -52,4 +55,8 @@ a {
 img {
     width: 400px;
     height: 600px;
+}
+
+.content {
+    flex: 1;
 }
