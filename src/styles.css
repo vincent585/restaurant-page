@@ -59,4 +59,29 @@ img {
 
 .content {
     flex: 1;
+    justify-items: center;
+    margin-top: 5%;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background: #bfA2DB9f;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hours, .location {
+    justify-items: center;
+    line-height: 1.5;
 }
