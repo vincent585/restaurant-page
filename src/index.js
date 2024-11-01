@@ -1,6 +1,7 @@
 import "./styles.css"
 import { homepage } from "./homepage"
 import { contact } from "./contact";
+import { about } from "./about";
 
 const content = document.querySelector('.content');
 
@@ -16,6 +17,9 @@ navButtons.forEach(button => {
                 break;
             case 'Contact':
                 content.appendChild(contact());
+                break;
+            case 'About':
+                content.appendChild(about());
                 break;
             default:
                 break;
