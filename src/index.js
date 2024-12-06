@@ -2,6 +2,7 @@ import "./styles.css"
 import { homepage } from "./homepage"
 import { contact } from "./contact";
 import { about } from "./about";
+import { menu } from "./menu";
 
 const content = document.querySelector('.content');
 
@@ -21,6 +22,8 @@ navButtons.forEach(button => {
             case 'About':
                 content.appendChild(about());
                 break;
+            case 'Menu':
+                content.appendChild(menu());
             default:
                 break;
         }

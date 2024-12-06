@@ -91,3 +91,22 @@ img {
     line-height: 1.5;
     font-size: 18px;
 }
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu-item {
+    background-color: #8F9779;
+    height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    text-align: center;
+}
