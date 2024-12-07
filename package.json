@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "predeploy": "git checkout gh-pages && git merge main --no-edit && webpack --config webpack.prod.js",
+    "deploy": "git add dist -f && git commit -m \"Deployment commit\" && git subtree push --prefix dist origin gh-pages",
+    "postdeploy": "git checkout main"
   },
   "keywords": [],
   "author": "",
